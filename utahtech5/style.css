@@ -32,19 +32,20 @@ footer{
 
 
     
-}
+
 #bluebar{
     
     background-color: #003058;
     grid-row: 1 / 2;
     grid-column: 1 / -1;
-<<<<<<< HEAD
+
 }
 #greybar{
     background-color: #424242;
     grid-row: 2 / 3;
     grid-column: 1 / -1;
     position:relative;
+}
 h3{
     color: #003058;
 }

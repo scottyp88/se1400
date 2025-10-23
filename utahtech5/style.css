@@ -30,9 +30,6 @@ footer{
     display: grid; grid-auto-rows: minmax(0, auto); grid-template-columns: minmax(0px, 1fr) repeat(6,minmax(0,175px)) minmax(0px, 1fr);
 }
 
-
-    
-
 #bluebar{
     
     background-color: #003058;
@@ -44,7 +41,7 @@ footer{
     background-color: #424242;
     grid-row: 2 / 3;
     grid-column: 1 / -1;
-    position:relative;
+    
 }
 h3{
     color: #003058;

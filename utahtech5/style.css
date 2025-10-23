@@ -41,6 +41,7 @@ footer{
     background-color: #424242;
     grid-row: 2 / 3;
     grid-column: 1 / -1;
+    position: relative;
     
 }
 h3{

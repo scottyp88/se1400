@@ -99,7 +99,7 @@ footer{
         margin: 0 auto;
     }
     
-    img{
+    .photos img{
         max-width: 100%;
         height: auto;
     }
@@ -126,7 +126,7 @@ footer{
         max-width: 100%;
         
     }
-    img{
+    .photos img{
         max-width: 100%;
         height: auto;
         min-width: 0px;

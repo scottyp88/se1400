@@ -127,9 +127,7 @@ footer{
         
     }
     .photos img{
-        max-width: 100%;
-        height: auto;
-        min-width: 0px;
+        display: none;
     }
     .navtext nav{
         display: flex;

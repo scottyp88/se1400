@@ -84,7 +84,7 @@ main{
 }
 #shoppingcart{
     display: grid;
-    grid-template-columns: 3;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 form{
     display: grid;
@@ -201,7 +201,7 @@ tr:nth-of-type(even){
     }
     #shoppingcart{
         display: grid;
-        grid-template-columns: 2;
+        grid-template-columns: 1fr 1fr;
     }
     main img{
         float: none;
@@ -242,7 +242,7 @@ tr:nth-of-type(even){
     }
     #shoppingcart{
         display: grid;
-        grid-template-columns: 1;
+        grid-template-columns: 1fr;
     }
 
 }

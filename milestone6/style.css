@@ -85,7 +85,8 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: right;  
-  gap: 8px;       
+  gap: 8px;
+  font-size: 1.5rem;    
 }
 footer{
     grid-column: 2 / 8;

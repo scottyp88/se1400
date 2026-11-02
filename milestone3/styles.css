@@ -1,21 +1,35 @@
 body {
     display: grid;
     grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
-    grid-template-rows: 800px 800px;
-    
+    grid-template-rows: 400px 400px 400px 400px;
+
 }
+
 #area2 {
     background-color: rgba(0, 255, 0, 0.3);
     grid-column: 2/-2;
-    grid-row: 2/3;
-    
-    
+    grid-row: 3/-1;
+
+
 }
+
 #area1 {
-    
+
     background-color: rgba(255, 0, 0, 0.3);
     grid-column: 2/-2;
-    grid-row: 1/2;
+    grid-row: 1/3;
 
-    
+
+}
+
+#area3 {
+    background-color: rgba(125, 0, 125, 0.3);
+    grid-column: 3/-3;
+    grid-row: 1/2;
+}
+
+#area4 {
+    background-color: rgba(234, 234, 12, 0.3);
+    grid-column: 3/-3;
+    grid-row: 1/-1;
 }

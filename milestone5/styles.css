@@ -1,0 +1,68 @@
+body {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    grid-template-rows: auto auto;
+}
+#hook {
+    background-color: #bab2a7;
+    grid-column: 2/-2;
+    grid-row: 2/-1;
+    
+    
+}
+#lure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-image: url(./twilight.jpeg);
+    background-size: 2000px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 2/-2;
+    grid-row: 1/2;
+    
+}
+nav a {
+    align-content: right;
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    
+}
+nav {
+    margin-left: 7rem;
+    margin-right: 7rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: start;
+    align-self: center;
+    
+}
+nav a:hover{
+    color: black;
+}
+header {
+    align-content: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    justify-self: center;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 1.5rem;
+}
+.logo{
+    width: 10em;
+    height: auto;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+main {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+

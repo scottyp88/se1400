@@ -1,0 +1,142 @@
+body {
+    display: grid;
+    grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
+    grid-template-rows: auto auto;
+    margin: 0;
+    background-color: rgb(191, 191, 191);
+}
+#info {
+    background-color: #bab2a7;
+    grid-column: 2/-2;
+    grid-row: 2/-1;
+    
+    
+}
+#intro {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column: 2/-2;
+    grid-row: 1/2;
+    
+}
+nav a {
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    
+}
+nav {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    grid-column: 2/-2;
+    grid-row: 1/2;
+    justify-self: end;
+    align-self: top;
+    padding-top: 75px;
+    
+}
+nav a:hover { 
+    color: black;
+}
+header {
+    align-self: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-column: 2/-2;
+    grid-row: 2/3;
+    justify-self: center;
+    margin-left: clamp(12px, 20vw, 200px);
+    margin-right: clamp(12px, 20vw, 200px);
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-left: clamp(10px, 3vw, 100px);
+    padding-right: clamp(10px, 3vw, 50px);
+    
+}
+header h1 {
+    font-size: clamp(2rem, 1rem + 3vw, 5rem);
+}
+.logo{
+    width: 60%;
+    height: auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: 1rem;
+}
+main {
+    padding: 20px;
+    
+    
+}
+main p {
+    max-width: 500px;
+}
+main h4 {
+    max-width: 500px;
+}
+footer {
+    
+    padding-left: 20px;
+    
+}
+#tophalf {
+    background-image: url(./twilight.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    margin-left: 0;
+    margin-right: 0;
+}
+.hiddenmenubutton {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    header {
+        grid-column: 1 / -1;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+    
+
+
+    nav {
+        display: none;
+    }
+    header {
+        padding-bottom: 100px;
+    }
+    .hiddenmenubutton {
+        display: block;
+        grid-column: 1 / -1;
+        width: 40%;
+        height: auto;
+        align-self: center;
+        grid-row: 1/2;
+        margin-left: 7rem;
+        margin-right: 7rem;
+        margin-top: 1rem;
+        background: none;
+        font-family: "Rye", serif;
+        font-size: 1.125rem;
+        color: #f5edce;
+        border: none;
+    }
+    .hiddenmenubutton img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .logo {
+        display: none;
+    }
+}

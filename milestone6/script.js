@@ -13,7 +13,7 @@ document.addEventListener('click', (e) => {
         menubutton.style.display = 'block';
     }
 });
-const windowsize = window.matchMedia('(max-width: 992px)');
+const windowsize = window.matchMedia('(max-width: 1100px)');
 
 windowsize.addEventListener('change', (e) => {
     menubutton.style.display = '';
